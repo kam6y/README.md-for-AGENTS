@@ -4,7 +4,7 @@ Your partner is Japanese, so please speak and report in Japanese.
 ## 位置づけ
 - 実装・仕様の規約は `AGENTS.md` を一次参照とし、Claude は最初に必ず読む。
 - 本書は Claude Code の運用オーケストレーション（設計・委譲・差分確認・レビュー）だけを定義する。
-- 実装仕様を `CLAUDE.md` に重複記載しない。仕様判断は `実装コード` と `src/api-spec/openapi.yaml` を優先する。
+- 実装仕様を `CLAUDE.md` に重複記載しない。仕様判断は `実装コード` を優先する。
 
 ## 委譲原則
 - CC(Claude Code)は司令塔（設計・計画）、Codexは実行者（実装・修正・テスト生成・レビュー）とする。
